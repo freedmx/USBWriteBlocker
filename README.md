@@ -42,12 +42,12 @@
 1. Asegúrate de tener Python instalado.
 2. Clona o descarga el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/turepositorio.git
-   cd turepositorio
+   git clone (https://github.com/freedmx/USBWriteBlocker)
+   cd USBWriteBlocker
    ```
 3. Ejecuta el archivo principal:
    ```bash
-   python usb_bloqueador.py
+   python USB-WriteBlocker.py
    ```
 
 4. También puedes crear un acceso directo y configurarlo para ejecutar como administrador.
