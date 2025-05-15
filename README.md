@@ -36,3 +36,40 @@
 - Permisos de administrador para aplicar cambios en el registro
 
 ---
+
+## 🚀 Cómo ejecutar
+
+1. Asegúrate de tener Python instalado.
+2. Clona o descarga el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/turepositorio.git
+   cd turepositorio
+   ```
+3. Ejecuta el archivo principal:
+   ```bash
+   python usb_bloqueador.py
+   ```
+
+4. También puedes crear un acceso directo y configurarlo para ejecutar como administrador.
+
+---
+
+## 📄 Licencia
+
+Distribuido bajo la licencia **GPL**. Ver archivo `LICENSE` para más detalles.
+
+---
+
+## 👨‍💻 Autor
+
+**Jose Freddy G.**  
+📅 Proyecto iniciado: 01/01/2025  
+🔗 Repositorio: https://github.com/freedmx/USBWriteBlocker
+
+---
+
+## 🧠 Notas importantes
+
+- El cambio tiene efecto inmediato, pero se recomienda reiniciar el sistema para asegurar su persistencia en algunas configuraciones.
+- No conectes dispositivos USB mientras cambias la política para evitar resultados inesperados.
+- Puedes personalizar colores, textos y otras funciones fácilmente desde el código fuente.
