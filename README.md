@@ -1,4 +1,5 @@
 # USBWriteBlocker
+![Texto alternativo](imagenes/Bloqueador_Escritura_USB.png)
 
 # 🔒 Bloqueador de Escritura USB
 
