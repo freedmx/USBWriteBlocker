@@ -57,7 +57,7 @@
 
 ## 📄 Licencia
 
-Distribuido bajo la licencia **GPL**. Ver archivo `LICENSE` para más detalles.
+Distribuido bajo la licencia **GPL v3**. Ver archivo `LICENSE` para más detalles.
 
 ---
 
