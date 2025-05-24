@@ -31,6 +31,7 @@ def show_about():
     info_text = """
 
 Bloqueador de Escritura USB v1.0.0
+(USB Write Blocker)
 
 Desarrollado por: [Jose Freddy G.]
 Fecha: [ 01/01/2025]
@@ -205,6 +206,7 @@ title_label = tk.Label(top_frame, text="Bloqueador de Escritura USB v1.0.0", fon
 title_label.pack()
 
 info_text = (
+    "(USB Write Blocker.)\n"
     "Inicie el bloqueador ANTES de conectar la unidad USB.\n"
     "No cambie la configuración con una unidad USB conectada."
 )
