@@ -48,7 +48,7 @@
    ```
 3. Ejecuta el archivo principal:
    ```bash
-   python USB-WriteBlocker.py
+   python USBWriteBlocker.py
    ```
 
 4. También puedes crear un acceso directo y configurarlo para ejecutar como administrador.
