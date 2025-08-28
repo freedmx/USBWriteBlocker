@@ -63,7 +63,7 @@ Distribuido bajo la licencia **GPL v3**. Ver archivo `LICENSE` para más detalle
 
 ## 👨‍💻 Autor
 
-**Jose Freddy G.**  
+**Jose Freddy Gabriel.**  
 📅 Proyecto iniciado: 01/01/2025  
 🔗 Repositorio: https://github.com/freedmx/USBWriteBlocker
 
