@@ -1,5 +1,4 @@
 # 🔒 USB Write Blocker v1.1.0
-![Texto alternativo](imagenes/interfaz_v1.1.0.png)
 
 # 🔒 Bloqueador de Escritura USB
 
