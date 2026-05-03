@@ -48,7 +48,7 @@ Está diseñada con un enfoque práctico para **análisis forense, cibersegurida
 ![Nueva Interfaz](imagenes/interfaz_v1.1.0.png)
 
 ### Versión anterior
-![Interfaz anterior](imagenes/interfaz.png)
+![Interfaz anterior](imagenes/Bloqueador_Escritura_USB.png)
 
 ---
 
