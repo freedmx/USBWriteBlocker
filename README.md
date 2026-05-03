@@ -1,75 +1,84 @@
-# USBWriteBlocker
-![Texto alternativo](imagenes/Bloqueador_Escritura_USB.png)
+# 🔒 USB Write Blocker v1.1.0
+![Texto alternativo](imagenes/interfaz_v1.1.0.png)
 
 # 🔒 Bloqueador de Escritura USB
 
-## 🛠 Descripción
-**Bloqueador de Escritura USB** es una aplicación de escritorio desarrollada en Python con Tkinter que permite al usuario activar o desactivar la protección contra escritura en dispositivos USB. Esto se logra mediante la modificación del registro de Windows.
-
-> ⚠️ La aplicación requiere permisos de administrador para funcionar correctamente.
+Herramienta de escritorio desarrollada en Python para **controlar, verificar y documentar la protección contra escritura en dispositivos USB**, mediante la modificación segura del registro de Windows.
 
 ---
 
-## 🎯 Funcionalidades
+## 🛡 Descripción
 
-- ✅ Activar la protección contra escritura en puertos USB.
-- 🔓 Desactivar la protección para permitir escritura.
-- 📊 Ver el estado actual del sistema respecto a esta política.
-- 🖼 Interfaz gráfica amigable y autoexplicativa.
-- 📜 Terminal integrada para mostrar los procesos en tiempo real.
-- 🔗 Acceso directo al repositorio desde el menú "Ayuda".
+**USB Write Blocker** permite activar o desactivar la protección contra escritura en unidades USB, evitando la alteración de evidencia digital o el uso no autorizado de dispositivos externos.
+
+Está diseñada con un enfoque práctico para **análisis forense, ciberseguridad y entornos institucionales**.
+
+> ⚠️ Requiere ejecución con privilegios de administrador.
 
 ---
 
-## 📦 Tecnologías utilizadas
+## 🚀 Funcionalidades
 
-- **Python 3.x**
-- **Tkinter** (interfaz gráfica)
-- **winreg** (acceso al registro de Windows)
-- **ctypes** (verificación de permisos de administrador)
+- 🔐 Activar protección contra escritura USB
+- 🔓 Desactivar protección
+- 📊 Visualización del estado actual del sistema
+- 🔍 Detección automática de dispositivos USB
+- 🧪 Prueba real de escritura (validación)
+- 📝 Generación de nota técnica
+- 📄 Exportación de logs en formato TXT
+- 🖥️ Interfaz gráfica moderna (Tkinter)
+- 🎨 Icono integrado en ventana y barra de tareas
+- 📜 Registro de procesos en tiempo real
+
+---
+
+## 🆕 Novedades v1.1.0
+
+- ✨ Rediseño completo de la interfaz (UI moderna)
+- 📌 Header informativo optimizado
+- 📊 Mejor visualización del estado (ACTIVADO / DESACTIVADO)
+- 🧾 Registro de procesos más amplio y legible
+- 🎨 Integración de icono en aplicación y barra de tareas
+- 🧠 Código documentado por secciones
+
+---
+
+## 📸 Interfaz
+
+### Versión 1.1.0 (Actual)
+![Nueva Interfaz](imagenes/interfaz_v1.1.0.png)
+
+### Versión anterior
+![Interfaz anterior](imagenes/interfaz.png)
 
 ---
 
 ## ⚙️ Requisitos
 
-- **Sistema operativo**: Windows 10/11
-- **Python 3.6 o superior**
-- Permisos de administrador para aplicar cambios en el registro
+- Sistema operativo: Windows 10 / 11
+- Python 3.8 o superior
+- Permisos de administrador
 
 ---
 
-## 🚀 Cómo ejecutar
+## 🛠 Tecnologías utilizadas
 
-1. Asegúrate de tener Python instalado.
-2. Clona o descarga el repositorio:
-   ```bash
-   git clone (https://github.com/freedmx/USBWriteBlocker)
-   cd USBWriteBlocker
-   ```
-3. Ejecuta el archivo principal:
-   ```bash
-   python USBWriteBlocker.py
-   ```
-
-4. También puedes crear un acceso directo y configurarlo para ejecutar como administrador.
+- Python 3
+- Tkinter (interfaz gráfica)
+- winreg (registro de Windows)
+- ctypes (verificación de privilegios)
+- PyInstaller (compilación a ejecutable)
 
 ---
 
-## 📄 Licencia
+## 🚀 Ejecución
 
-Distribuido bajo la licencia **GPL v3**. Ver archivo `LICENSE` para más detalles.
+### 🔹 Método 1: Ejecutar desde código
 
----
-
-## 👨‍💻 Autor
-
-**Jose Freddy Gabriel.**  
-📅 Proyecto iniciado: 01/01/2025  
-🔗 Repositorio: https://github.com/freedmx/USBWriteBlocker
-
----
-
-## 🧠 Notas importantes
+```bash
+git clone https://github.com/freedmx/USBWriteBlocker
+cd USBWriteBlocker
+python USBWriteBlocker.py
 
 - El cambio tiene efecto inmediato, pero se recomienda reiniciar el sistema para asegurar su persistencia en algunas configuraciones.
 - No conectes dispositivos USB mientras cambias la política para evitar resultados inesperados.
