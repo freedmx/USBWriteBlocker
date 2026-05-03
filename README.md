@@ -1,3 +1,7 @@
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/license-GPLv3-green)
+
 # 🔒 USB Write Blocker v1.1.0
 
 # 🔒 Bloqueador de Escritura USB
@@ -69,6 +73,11 @@ Está diseñada con un enfoque práctico para **análisis forense, cibersegurida
 - PyInstaller (compilación a ejecutable)
 
 ---
+## 📦 Descarga
+
+👉 Descargar aquí:  
+https://github.com/freedmx/USBWriteBlocker/releases/latest
+
 
 ## 🚀 Ejecución
 
